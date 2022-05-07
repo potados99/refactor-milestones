@@ -1,7 +1,7 @@
 {
   "name": "refactored",
   "version": "1.0.0",
-  "description": "",
+  "description": "refactored is a utility that shows how many tasks are done while you are on a huge refactoring.",
   "main": "index.js",
   "scripts": {},
   "bin": {
@@ -11,9 +11,22 @@
     "type": "git",
     "url": "git+https://github.com/potados99/refactored.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "refactoring",
+    "progress",
+    "milestones"
+  ],
+  "author": {
+    "name": "Potados",
+    "email": "potados99@gmail.com",
+    "url": "https://github.com/potados99"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib/"
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/potados99/refactored/issues"
   },
