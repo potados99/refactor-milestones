@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/product.schema.json",
+  "title": "Schema for .refactoredrc",
+  "type": "object",
+  "properties": {
+    "tasks": {
+      "description": "Array of refactoring tasks",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "Name of the refactoring task",
+            "type": "string"
+          },
+          "filePatterns": {
+            "description": "Glob patterns to include",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ignorePatterns": {
+            "description": "Glob patterns to exclude",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "test": {
+            "description": "Set of rules to apply to decide whether this file has been refactored.",
+            "type": "object",
+            "properties": {
+              "file-includes": {
+                "description": "This file should include the following string",
+                "type": "string"
+              },
+              "file-not-includes": {
+                "description": "This file should not include the following string",
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required": ["name", "filePatterns", "ignorePatterns", "test"]
+      }
+    }
+  },
+  "required": ["tasks"]
+}

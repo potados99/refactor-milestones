@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "name": "Introduce Shebang",
+      "filePatterns": [
+        "**/*"
+      ],
+      "ignorePatterns": [
+        "node_modules",
+        ".git",
+        ".idea",
+        "package-lock.json"
+      ],
+      "test": {
+        "file-includes": "#!/usr/bin/env node"
+      }
+    },
+    {
+      "name": "Remove import statements",
+      "filePatterns": [
+        "**/*"
+      ],
+      "ignorePatterns": [
+        "node_modules",
+        ".git",
+        ".idea",
+        "package-lock.json"
+      ],
+      "test": {
+        "file-not-includes": "import"
+      }
+    }
+  ]
+}

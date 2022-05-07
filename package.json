@@ -1,0 +1,28 @@
+{
+  "name": "refactored",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "refactored": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potados99/refactored.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potados99/refactored/issues"
+  },
+  "homepage": "https://github.com/potados99/refactored#readme",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "fast-glob": "^3.2.11"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
