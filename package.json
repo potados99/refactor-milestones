@@ -1,6 +1,6 @@
 {
   "name": "refactored",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "refactored is a utility that shows how many tasks are done while you are on a huge refactoring.",
   "main": "index.js",
   "scripts": {},
