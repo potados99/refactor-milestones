@@ -7,7 +7,7 @@
           <value>
             <SchemaInfo>
               <option name="name" value="refactoredrc" />
-              <option name="relativePathToSchema" value="refactoredrc.schema.json" />
+              <option name="relativePathToSchema" value="https://raw.githubusercontent.com/potados99/refactored/main/refactoredrc.schema.json" />
               <option name="schemaVersion" value="JSON Schema version 7" />
               <option name="patterns">
                 <list>
