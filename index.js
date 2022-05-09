@@ -10,7 +10,7 @@ async function run(args) {
 
   for (const task of tasks) {
     const { name } = task;
-    const { done, undone } = await examineTaskAchievement(task, cwd);
+    const { done, undone } = await examineTaskAchievement(task, cwd || '.');
 
     results.push({ name, done, undone });
   }
